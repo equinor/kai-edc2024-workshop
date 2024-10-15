@@ -1690,6 +1690,25 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "matplotlib-label-lines"
+version = "0.7.0"
+description = "Label lines in matplotlib."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "matplotlib_label_lines-0.7.0-py3-none-any.whl", hash = "sha256:31f9ea9de749152d5ef2a1b5e400cba965ec4574bb8a32c30361dd32dd2bfd95"},
+    {file = "matplotlib_label_lines-0.7.0.tar.gz", hash = "sha256:db2ba7afe34a733f7c02d29b16217069cf412c12ce6a452991adb71b9c4fd16f"},
+]
+
+[package.dependencies]
+matplotlib = ">=2.0.2"
+more-itertools = "*"
+numpy = ">=1.16"
+
+[package.extras]
+test = ["matplotlib (==3.7.1)", "pytest (==7.3.1)", "pytest-cov (==4.0.0)", "pytest-mpl (==0.16.1)"]
+
+[[package]]
 name = "mistune"
 version = "3.0.2"
 description = "A sane and fast Markdown parser with useful plugins and renderers"
@@ -1727,13 +1746,21 @@ files = [
 ]
 
 [package.dependencies]
-numpy = [
-    {version = ">=1.23.3", markers = "python_version > \"3.10\""},
-    {version = ">=1.21.2", markers = "python_version > \"3.9\" and python_version <= \"3.10\""},
-]
+numpy = {version = ">=1.21.2", markers = "python_version > \"3.9\""}
 
 [package.extras]
 dev = ["absl-py", "pyink", "pylint (>=2.6.0)", "pytest", "pytest-xdist"]
+
+[[package]]
+name = "more-itertools"
+version = "10.5.0"
+description = "More routines for operating on iterables, beyond itertools"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "more-itertools-10.5.0.tar.gz", hash = "sha256:5482bfef7849c25dc3c6dd53a6173ae4795da2a41a80faea6700d9f5846c5da6"},
+    {file = "more_itertools-10.5.0-py3-none-any.whl", hash = "sha256:037b0d3203ce90cca8ab1defbbdac29d5f993fc20131f3664dc8d6acfa872aef"},
+]
 
 [[package]]
 name = "nbclient"
@@ -1972,11 +1999,7 @@ files = [
 ]
 
 [package.dependencies]
-numpy = [
-    {version = ">=1.22.4,<2", markers = "python_version < \"3.11\""},
-    {version = ">=1.23.2,<2", markers = "python_version == \"3.11\""},
-    {version = ">=1.26.0,<2", markers = "python_version >= \"3.12\""},
-]
+numpy = {version = ">=1.22.4,<2", markers = "python_version < \"3.11\""}
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
 tzdata = ">=2022.1"
@@ -3452,5 +3475,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.10,<3.13"
-content-hash = "582275dba7268727e7ef90c7a83eb8b49b7c2183c1ecd128035bf2d15f04940f"
+python-versions = "3.10.15"
+content-hash = "91e2f5eb80fe5c292159d0fabbd803c1c09b172750d605e103fe9ac978c62c80"
