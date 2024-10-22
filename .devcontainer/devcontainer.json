@@ -1,0 +1,17 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.9-bullseye",
+    "postCreateCommand": "pip3 install .",
+    "customizations": {
+        "vscode": {
+        "extensions": [
+            "ms-toolsai.jupyter",
+            "ms-python.python"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+          "installCudnn": true
+        }
+    }    
+}
