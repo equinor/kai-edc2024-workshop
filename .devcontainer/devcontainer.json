@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.9-bullseye",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.10-bullseye",
     "postCreateCommand": "pip3 install .",
     "customizations": {
         "vscode": {
