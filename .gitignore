@@ -163,3 +163,7 @@ cython_debug/
 
 .DS_Store
 .python-version
+
+# Language model files
+my_shakespeare_model/
+shakespeare.txt
