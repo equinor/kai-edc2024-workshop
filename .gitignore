@@ -167,3 +167,5 @@ cython_debug/
 # Language model files
 my_shakespeare_model/
 shakespeare.txt
+
+*dataset
