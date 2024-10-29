@@ -50,7 +50,7 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook]([1_introduction/notebook.ipynb)
+[Notebook](1_introduction/notebook.ipynb)
 
 </td>
         </tr>
@@ -86,7 +86,7 @@ TODO
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook]([3_language_models/notebook.ipynb)
+[Notebook](3_language_models/notebook.ipynb)
 
 </td>
         </tr>
