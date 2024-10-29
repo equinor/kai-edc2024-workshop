@@ -86,7 +86,7 @@ TODO
             <td>Group work & interactive seminar</td>
             <td>
 
-TODO
+[Notebook]([03_language_models/notebook.ipynb)
 
 </td>
         </tr>
