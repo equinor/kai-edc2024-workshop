@@ -1,7 +1,5 @@
 # From NLP Zero to Language Model Hero: A Workshop on Artificial Intelligence
 
-# Optimising wind farms: A gentle introduction to numerical optimisation
-
 This repository accompanies the 2024 Equinor Developer Conference (EDC) workshop "From NLP Zero to Language Model Hero: A Workshop on Artificial Intelligence".
 
 The workshop provides an introduction to Artificial Intelligence (AI), and more specifically large language models (LLMs). We will touch on why AI has been so successful in recent years and how it can be used for natural language processing.
