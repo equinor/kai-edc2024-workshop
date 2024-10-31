@@ -18,12 +18,12 @@ def check_accuracy(loader, model, device):
         for x, y in loader:
             x = x.to(device=device)
             y = y.to(device=device)
-            x = x.reshape(x.shape[0],-1)
+
+            if 'LeNet' not in str(model):
+                x = x.reshape(x.shape[0],-1)
 
             scores = model(x)
             _, predictions = scores.max(1)
-
-            # print(predictions)
 
             num_correct += (predictions == y).sum()
             num_samples += predictions.size(0)
