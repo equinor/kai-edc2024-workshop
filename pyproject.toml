@@ -27,7 +27,8 @@ dependencies = [
     "ipywidgets>=8.1.5",
     "torch>=2.3",
     "seaborn>=0.13",
-    "torchvision>=0.20"
+    "torchvision>=0.20",
+    "torchsummary>=1.5"
 
 ]
 maintainers = [
