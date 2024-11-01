@@ -109,7 +109,7 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
         </tr>
         <tr>
             <td>16:15 - 16:45</td>
-            <td>Natural language processing using neural networks (continued)</td>
+            <td>Large language models</td>
             <td>Group work & interactive seminar</td>
             <td>
 
