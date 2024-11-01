@@ -77,7 +77,6 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook 2](2_inductive_biases_and_symmetries/notebook.ipynb)
 
 </td>
         </tr>
