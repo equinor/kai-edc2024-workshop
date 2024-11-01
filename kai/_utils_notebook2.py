@@ -3,6 +3,7 @@ import os
 
 import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
+import numpy as np
 import torch
 from torch.utils.data import DataLoader
 import torchvision.datasets as datasets
@@ -56,6 +57,15 @@ def get_modified_mnist_data(batch_size=64):
     return train_loader, test_loader1, test_loader2
 
 
+def plot_loss(loss):
+    n_iterations = len(loss)
+    iterations = np.arange(1, n_iterations+1)
+    plt.plot(iterations, loss)
+    plt.xlabel('Iterations')
+    plt.ylabel('Loss')
+    plt.show()
+
+
 def plot_images(images, labels):
     # Visualise images
     # Create layout
@@ -81,6 +91,7 @@ def plot_images(images, labels):
 
 
 def train_mnist_model(num_epochs, model, objective, optimizer, train_loader, device):
+    losses = []
     for epoch in range(num_epochs):
     # 1 epoch => Network has seen all the images in the dataset
 
@@ -91,7 +102,9 @@ def train_mnist_model(num_epochs, model, objective, optimizer, train_loader, dev
             data = data.to(device=device)
             targets = targets.to(device=device)
 
-            data = data.reshape(data.shape[0], -1)  # Flatten
+            if 'LeNet' not in str(model):
+                data = data.reshape(data.shape[0], -1)  # Flatten
+
             scores = model(data)
             loss = objective(scores, targets)
 
@@ -101,6 +114,10 @@ def train_mnist_model(num_epochs, model, objective, optimizer, train_loader, dev
 
             # gradient descent
             optimizer.step()
+            losses.append(loss.detach().numpy())
+
+    plot_loss(losses)
+
 
 
 class PaddedDataLoader:
