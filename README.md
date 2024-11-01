@@ -113,7 +113,6 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook 3](3_language_models/notebook.ipynb)
 
 </td>
         </tr>
