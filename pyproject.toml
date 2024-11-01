@@ -10,14 +10,14 @@ authors = [
   {name = "Liza Abel", email = "eabel@equinor.com"},
   {name = "David Augustin", email = "daugu@equinor.com"},
   {name = "Peter Koczka", email = "pkoc@equinor.com"},
-  {name = "Robert Dibbel", email = "rdib@equinor.com"},
+  {name = "Robert Dibble", email = "rdib@equinor.com"},
   {name = "Jennifer Sampson", email = "jensam@equinor.com"},
 ]
 dependencies = [
     "jupyterlab>=4.0.8",
     "numpy>=1.26.2",
     "pandas>=2.1.3",
-    "tensorflow>=2.14.0",
+    "tensorflow==2.14.0",
     "keras-tuner>=1.4.6",
     "scikit-learn>=1.5.2",
     "matplotlib>=3.9.2",
