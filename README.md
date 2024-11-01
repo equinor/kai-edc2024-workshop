@@ -17,27 +17,17 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
     </thead>
     <tbody>
         <tr>
-            <td>08:00 - 08:30</td>
+            <td>10:00 - 10:30</td>
             <td>Course intro & setting up</td>
             <td></td>
-                        <td>
+            <td>
 
 [Getting started](#getting-started)
 
 </td>
         </tr>
         <tr>
-            <td>08:30 - 09:15</td>
-            <td>AI and natural language processing</td>
-            <td>Interactive lecture</td>
-            <td>
-
-
-
-</td>
-        </tr>
-        <tr>
-            <td>09:15 - 09:30</td>
+            <td>10:30 - 10:40</td>
             <td colspan=3>
 
 **Coffee break**
@@ -45,30 +35,12 @@ The workshop provides an introduction to Artificial Intelligence (AI), and more 
 </td>
         </tr>
         <tr>
-            <td>09:30 - 10:45</td>
+            <td>10:40 - 12:00</td>
             <td>What is artificial intelligence?</td>
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook](1_introduction/notebook.ipynb)
-
-</td>
-        </tr>
-        <tr>
-            <td>10:45 - 11:00</td>
-            <td colspan=3>
-
-**Coffee break**
-
-</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:00</td>
-            <td>Efficient training of neural networks</td>
-            <td>Group work & interactive seminar</td>
-                        <td>
-
-TODO
+[Notebook 1](1_introduction/notebook.ipynb)
 
 </td>
         </tr>
@@ -78,20 +50,57 @@ TODO
 
 **Lunch break**
 
+
 </td>
         </tr>
         <tr>
-            <td>13:00 - 14:30</td>
+            <td>13:00 - 14:00</td>
+            <td>Efficient training of neural networks</td>
+            <td>Group work & interactive seminar</td>
+            <td>
+
+[Notebook 2 TODO]()
+
+</td>
+        </tr>
+        <tr>
+            <td>14:00 - 14:15</td>
+            <td colspan=3>
+
+**Coffee break**
+
+</td>
+        </tr>
+        <tr>
+            <td>14:15 - 14:45</td>
+            <td>Efficient training of neural networks (continued)</td>
+            <td>Group work & interactive seminar</td>
+            <td>
+
+[Notebook 2 TODO]()
+
+</td>
+        </tr>
+        <tr>
+            <td>14:45 - 15:00</td>
+            <td colspan=3>
+
+**Coffee break**
+
+</td>
+        </tr>
+        <tr>
+            <td>15:00 - 16:00</td>
             <td>Natural language processing using neural networks</td>
             <td>Group work & interactive seminar</td>
             <td>
 
-[Notebook](3_language_models/notebook.ipynb)
+[Notebook 3](3_language_models/notebook.ipynb)
 
 </td>
         </tr>
         <tr>
-            <td>14:30 - 14:45</td>
+            <td>16:00 - 16:15</td>
             <td colspan=3>
 
 **Coffee break**
@@ -99,27 +108,20 @@ TODO
 </td>
         </tr>
         <tr>
-            <td>14:45 - 16:30</td>
-            <td>Large language models</td>
+            <td>16:15 - 16:45</td>
+            <td>Natural language processing using neural networks (continued)</td>
             <td>Group work & interactive seminar</td>
             <td>
-                
-TODO
-            
+
+[Notebook 3](3_language_models/notebook.ipynb)
+
 </td>
         </tr>
-        <tr>
-            <td>16:30 - 16:45</td>
-            <td colspan=3>
-
-**Coffee break**
-
-</td>
         <tr>
             <td>16:45 - 17:00</td>
             <td>Wrap up</td>
-            <td>Interactive lecture</td>
             <td></td>
+            <td>
         </tr>
     </tbody>
 </table>
