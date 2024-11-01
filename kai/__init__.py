@@ -8,3 +8,12 @@ from ._utils_notebook1 import (
     plot_results2,
     plot_four_images
 )
+
+from ._utils_notebook2 import (
+    check_accuracy,
+    get_qa_datatset,
+    get_modified_mnist_data,
+    plot_loss,
+    plot_images,
+    train_mnist_model
+)
