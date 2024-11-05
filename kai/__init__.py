@@ -17,3 +17,12 @@ from ._utils_notebook2 import (
     plot_images,
     train_mnist_model
 )
+
+from ._utils_notebook3 import (
+    check_accuracy_language,
+    get_shakespeare_dataloader,
+    get_shakespeare_text,
+    get_midsummer_night_dream,
+    plot_accuracy,
+    plot_letter_count
+)
