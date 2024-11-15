@@ -34,16 +34,6 @@ def check_accuracy(loader, model, device):
     model.train()
 
 
-def get_qa_datatset():
-    directory = os.path.dirname(os.getcwd())
-    filepath = os.path.join(directory, 'kai', 'data', 'questions_answers.json')
-
-    with open(filepath, 'r') as f:
-        data = json.load(f)
-
-    return data
-
-
 def get_modified_mnist_data(batch_size=64):
     # Load Data
     train_dataset = datasets.MNIST(root='dataset/', train=True, transform=transforms.ToTensor(), download=True)
