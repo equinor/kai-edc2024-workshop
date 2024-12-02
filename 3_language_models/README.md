@@ -1,0 +1,1 @@
+The contents of this folder are licensed under [Apache 2.0 License](Apache-2.0.txt).
