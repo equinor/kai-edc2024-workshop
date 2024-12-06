@@ -89,5 +89,5 @@ If all tests pass, i.e. the execution ends with ``OK``, you are good to go! 🚀
 The files in this repository are under various licenses:
 
 - All the code is covered by the [MIT Licence](licenses/MIT.txt), unless otherwise stated.
-- The code and content in the [`3_language_models`](3_language_models) directory is covered by the [Apache License 2.0](3_language_models/LICENCE).
+- The code in the [`3_language_models`](3_language_models) directory is covered by the [Apache License 2.0](3_language_models/LICENCE).
 - All the content is covered by the [Creative Commons BY Attribution-ShareAlike 4.0](licenses/CC%20BY-SA%204.0.txt) license, unless stated otherwise.

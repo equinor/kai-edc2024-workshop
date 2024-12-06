@@ -1,1 +1,2 @@
-The contents of this folder are licensed under [Apache 2.0 License](Apache-2.0.txt).
+The code in this folder are licensed under [Apache 2.0 License](Apache-2.0.txt).
+The content is covered by the [Creative Commons BY Attribution-ShareAlike 4.0](../licenses/CC%20BY-SA%204.0.txt) license
